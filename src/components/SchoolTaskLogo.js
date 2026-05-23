@@ -1,6 +1,6 @@
 import { View, StyleSheet, useWindowDimensions, Image } from 'react-native';
 
-const logoSource = require('../../assets/Logo.png');
+const logoSource = require('../../config/assets/Logo.png');
 
 export default function SchoolTaskLogo() {
   const { width } = useWindowDimensions();

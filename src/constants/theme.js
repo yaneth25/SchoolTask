@@ -25,25 +25,25 @@ export const LIGHT_COLORS = {
 
 /** Paleta modo oscuro */
 export const DARK_COLORS = {
-  background: '#FFFFFF',
-  drawer: '#8A8A8A',
-  card: '#535151',
-  headerPill: '#8A8A8A',
+  background: '#1A1A1A',        // ¡Cambiado! El fondo ahora sí es oscuro
+  drawer: '#8A8A8A',            // Menú lateral
+  card: '#535151',              // Tarjetas y contenedores oscuros
+  headerPill: '#8A8A8A',        // Pastillas de títulos (como CONFIGURACIÓN)
   accent: '#8A8A8A',
-  container: '#535151',
-  statusPill: '#E6D3B3',
+  container: '#535151',         // Contenedores internos
+  statusPill: '#E6D3B3',        // Lo que antes era #C97C5D ahora es #E6D3B3
   terracotta: '#E6D3B3',
   black: '#000000',
   white: '#FFFFFF',
-  text: '#FFFFFF',
-  titleText: '#000000',
+  text: '#FFFFFF',              // ¡Cambiado! Textos generales ahora son blancos
+  titleText: '#000000',         // ¡Cambiado! Títulos principales se quedan negros (contraste con pastilla)
   mutedText: '#CCCCCC',
   sectionLabel: '#CCCCCC',
-  border: '#8A8A8A',
-  iconText: '#FFFFFF',
-  modalBackground: '#8A8A8A',
+  border: '#8A8A8A',            // Bordes oscuros
+  iconText: '#FFFFFF',          // Icono hamburguesa (☰) pasa a blanco
+  modalBackground: '#535151',   // Fondo de las ventanas emergentes/modales
   modalButtonBg: '#FFFFFF',
-  overlay: 'rgba(0, 0, 0, 0.5)',
+  overlay: 'rgba(0, 0, 0, 0.6)',
   switchTrackOff: '#C5C5C5',
   switchTrackOn: '#E6D3B3',
 };
